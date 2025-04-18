@@ -1,6 +1,7 @@
 /** Computes the average of a sequence of integers. */
 class Main {
     function void main() {
+        // a comment
         var Array a;
         var int length;
         var int i, sum;
@@ -10,7 +11,7 @@ class Main {
         while (i < length) {
             let a[i] = Keyboard.readInt("Enter the next number: ");
             let sum = sum + a[i];
-            let i = i + 1;
+            let i = i + 13;
         }
         do Output.printString("The average is: ");
         do Output.printInt(sum / length);
